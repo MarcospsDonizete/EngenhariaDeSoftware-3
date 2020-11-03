@@ -1,20 +1,18 @@
 package lista5;
 
 public abstract class  Animal {
-	public double peso;
-	public String raca;
+	public CalcularPeso peso;
 	public String dataDeNascimento;
+	public String raca;
 	public String id;
+	public String genero;
 	
-	public Animal(double peso, String raca, String dataDeNascimento, String id) {
+	public Animal(double peso, String dataDeNascimento,String raca, String id,String genero) {
 		super();
-		this.peso = peso;
-		this.raca = raca;
 		this.dataDeNascimento = dataDeNascimento;
 		this.id = id;
+		this.genero = genero;
+		this.peso= new CalcularPeso(peso);
 	}
 	
-	public double CalculoPeso() {
-		return peso;
-	}
 }
