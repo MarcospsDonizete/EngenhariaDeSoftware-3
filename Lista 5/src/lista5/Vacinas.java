@@ -5,4 +5,9 @@ public class Vacinas {
 	public boolean aplicado;
 	public String agendamento;
 	
+	public Vacinas(String nome, boolean aplicado, String agendamento) {
+		this.nome = nome;
+		this.aplicado = aplicado;
+		this.agendamento = agendamento;
+	}
 }
