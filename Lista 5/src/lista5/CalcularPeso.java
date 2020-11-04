@@ -10,7 +10,7 @@ public class CalcularPeso {
 	}
 	
 	void calcPeso(double peso) {
-		pesoAroba=peso*14.688;		
+		pesoAroba=peso/(14.688*2);		
 	}
 	
 }
