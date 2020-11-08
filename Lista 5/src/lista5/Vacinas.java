@@ -10,4 +10,8 @@ public class Vacinas {
 		this.aplicado = aplicado;
 		this.agendamento = agendamento;
 	}
+	
+	 public String toString() {
+	        return "Nome: " + nome + "  Aplicado: " + aplicado + "  Agendamento/data da aplicação: " + agendamento; 
+	   }
 }

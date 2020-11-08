@@ -36,5 +36,11 @@ public class CartaoVacinas {
 		todasVacinas.add(new Vacinas("Peste Suína Clássica", false, ""));
 		todasVacinas.add(new Vacinas("Erisipela", false, ""));
 	}
+	
+	public void imprimeVacinas() {
+		for(Vacinas vacina:todasVacinas) {
+			System.out.println(vacina.toString());
+		}
+	}
 }
 
