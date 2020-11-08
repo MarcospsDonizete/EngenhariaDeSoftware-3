@@ -3,7 +3,7 @@ package lista5;
 import java.util.ArrayList;
 import java.util.List;
 
-public class todosAnimais {
+public class RelatorioAnimais {
 	List<Animal> todosAnimais = new ArrayList<Animal>();
 	
 	
