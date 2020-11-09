@@ -21,7 +21,7 @@ public class Controller {
                      if (list.equalsIgnoreCase("1")) {
                     	 register();
                      } else if (list.equalsIgnoreCase("2")) {
-                    	 //registerCar();
+                    	 System.out.println("oi leticia né?");
                      } else if (list.equalsIgnoreCase("3")) {
                          // voltar para o inicio do programa
                      } else {
@@ -93,12 +93,13 @@ public class Controller {
         return scan.nextLine();
     }
 
-    private void register() {
+    private void register(int tipo) {
         boolean registering = true;
         while (registering) {
             System.out.println("\nCadastro de Animal");
-            
-            String tipo = (textInput("\nTipo:"));
+            if (tipo==1) {
+            	Animal animal = new Suino();
+            }
 
             String register = textInput("\nAdicionar cadastro (S/N) ?");
             if (register.equalsIgnoreCase("s")) {

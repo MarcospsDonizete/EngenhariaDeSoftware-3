@@ -4,11 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CartaoVacinas {
-	Animal animal;
 	List<Vacinas> todasVacinas= new ArrayList<Vacinas>();
 	
 	public CartaoVacinas(Animal animal) {
-		this.animal=animal;
 		if(animal instanceof Bovinos)
 			bovino();
 		else if(animal instanceof Suinos)
