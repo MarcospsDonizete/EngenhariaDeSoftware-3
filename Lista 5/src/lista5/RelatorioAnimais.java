@@ -14,6 +14,10 @@ public class RelatorioAnimais {
 		}
 		return todosAnimais;
 	}
+	
+	public void addAnimal(Animal animal) {
+		todosAnimais.add(animal);
+	}
 
 	public void printList() {
 		for(Animal a :todosAnimais) {

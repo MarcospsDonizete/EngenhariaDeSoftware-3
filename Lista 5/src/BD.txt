@@ -1,0 +1,4 @@
+especie;nome;peso;tipo;nascData;raca;id;sexo;vacinas;dataVacs;statusVenda;precoVenda
+bovino;jairo;20;1;10/02/1981;angus;11151618;F;[1,0,1,0,0,0,1,0];[X,X,X,X,20/11/2020,X,X,X];0;X;
+suino;Yog'Sothot;11;2;20/05/0;eldritch;0;M;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];0;X;
+bovino;cleiton;700;1;31/02/1930;sadia;1516156;M;[1,1,1,1,1,1,1,0];[X,X,X,X,X,X,X,03/12/2022];0;X;

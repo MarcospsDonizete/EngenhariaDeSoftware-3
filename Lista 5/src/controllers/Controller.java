@@ -1,6 +1,11 @@
 package controllers;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 import lista5.*;
 
@@ -8,7 +13,21 @@ public class Controller {
     private Scanner scan;
     private boolean execute;
 
-    public void start() {
+    public void start() throws IOException {
+    	RelatorioAnimais lista = new RelatorioAnimais();
+    	List<String> temp = new ArrayList<String>();
+    	Files.lines(new File("BD.txt").toPath()).forEach(temp::add);
+    	for(String s:temp) {
+			String[] t=s.split(";");
+			if (!t[0].equals("especie")) {
+				if(t[0].equals("bovino")) {
+					lista.addAnimal(new Bovinos(t[1],t[2],t[3],t[4],t[5],t[6],t[7],t[8],t[9],t[10],t[11]));
+				} else if(t[0].equals("suino")) {
+					lista.addAnimal(new Suinos(t[1],t[2],t[3],t[4],t[5],t[6],t[7],t[8],t[9],t[10],t[11]));
+				}
+			}
+    	}
+		lista.printList();
         scan = new Scanner(System.in);
         execute = true;
         System.out.println("\nRegistro de animais");
@@ -19,9 +38,9 @@ public class Controller {
             if (option.equalsIgnoreCase("1")) {
             	String list = listMenuCadastro();
                      if (list.equalsIgnoreCase("1")) {
-                    	 //register();
+                    	 register(1);
                      } else if (list.equalsIgnoreCase("2")) {
-                    	 System.out.println("oi leticia né?");
+                    	 register(2);
                      } else if (list.equalsIgnoreCase("3")) {
                          // voltar para o inicio do programa
                      } else {
@@ -99,6 +118,8 @@ public class Controller {
             System.out.println("\nCadastro de Animal");
             if (tipo==1) {
             	Animal animal = new Suinos();
+            } else if(tipo==2) {
+            	Animal animal = new Bovinos();
             }
             
             String register = textInput("\nAdicionar cadastro (S/N) ?");

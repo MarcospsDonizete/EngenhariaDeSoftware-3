@@ -9,12 +9,12 @@ public class Peso {
 			this.peso = peso;
 		}
 		else if (check==2) {
-			this.peso = peso/29.376;
+			this.peso = peso*29.376;
 		}
 	}
 	
 	public String toString() {
         return "Peso em KG: " + this.peso + "\n" +
-        		"Peso em Aroba: " + this.peso*29.376; 
+        		"Peso em Aroba: " + this.peso/29.376; 
    }
 }
