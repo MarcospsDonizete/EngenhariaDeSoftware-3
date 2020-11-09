@@ -2,9 +2,8 @@ package lista5;
 
 public class Bovinos extends Animal{
 
-	public Bovinos(Peso peso, String dataDeNascimento, String raca, String id, String genero) {
+	public Bovinos() {
 		super();
 	}
-
 	
 }

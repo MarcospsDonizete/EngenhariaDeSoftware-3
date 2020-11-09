@@ -3,129 +3,103 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="lista5.Animal" project="Lista 5" file="/Lista 5/src/lista5/Animal.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="214" x="702" y="334"/>    
+    <position height="-1" width="-1" x="562" y="416"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="lista5.Main" project="Lista 5" file="/Lista 5/src/lista5/Main.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="99" width="113" x="376" y="159"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="3" language="java" name="lista5.CalcularPeso" project="Lista 5" 
-    file="/Lista 5/src/lista5/CalcularPeso.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="133" x="529" y="159"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="lista5.Bovinos" project="Lista 5" file="/Lista 5/src/lista5/Bovinos.java" 
+  <class id="2" language="java" name="lista5.Bovinos" project="Lista 5" file="/Lista 5/src/lista5/Bovinos.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="221" x="441" y="527"/>    
+    <position height="-1" width="-1" x="308" y="591"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="lista5.Vacinas" project="Lista 5" file="/Lista 5/src/lista5/Vacinas.java" 
+  <class id="3" language="java" name="lista5.Vacinas" project="Lista 5" file="/Lista 5/src/lista5/Vacinas.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="173" x="956" y="334"/>    
+    <position height="-1" width="-1" x="459" y="802"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="lista5.Peso" project="Lista 5" file="/Lista 5/src/lista5/Peso.java" binary="false" 
+  <class id="4" language="java" name="lista5.Peso" project="Lista 5" file="/Lista 5/src/lista5/Peso.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="99" width="104" x="702" y="527"/>    
+    <position height="-1" width="-1" x="624" y="609"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="lista5.CartaoVacinas" project="Lista 5" 
+  <class id="5" language="java" name="lista5.CartaoVacinas" project="Lista 5" 
     file="/Lista 5/src/lista5/CartaoVacinas.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="137" x="894" y="159"/>    
+    <position height="-1" width="-1" x="462" y="618"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="lista5.Suinos" project="Lista 5" file="/Lista 5/src/lista5/Suinos.java" 
+  <class id="6" language="java" name="lista5.Suinos" project="Lista 5" file="/Lista 5/src/lista5/Suinos.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="215" x="846" y="527"/>    
+    <position height="-1" width="-1" x="759" y="591"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="lista5.RelatorioAnimais" project="Lista 5" 
+  <class id="7" language="java" name="lista5.RelatorioAnimais" project="Lista 5" 
     file="/Lista 5/src/lista5/RelatorioAnimais.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="152" x="702" y="159"/>    
+    <position height="-1" width="-1" x="559" y="179"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="10">    
+  <association id="8">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="11" name="cartao"/>      
-      <multiplicity id="12" minimum="0" maximum="1"/>    
+      <attribute id="9" name="peso"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="13">    
-    <end type="SOURCE" refId="4"/>    
+  <generalization id="11">    
+    <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <association id="14">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="15" name="todasVacinas"/>      
-      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+  <association id="12">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="13" name="cartao"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="17">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="18" name="peso"/>      
-      <multiplicity id="19" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="20">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="21" name="animal"/>      
-      <multiplicity id="22" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="23">    
-    <end type="SOURCE" refId="8"/>    
+  <generalization id="15">    
+    <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <association id="24">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="25" name="todosAnimais"/>      
-      <multiplicity id="26" minimum="0" maximum="2147483647"/>    
+  <association id="16">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="17" name="todasVacinas"/>      
+      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="20" name="todosAnimais"/>      
+      <multiplicity id="21" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  

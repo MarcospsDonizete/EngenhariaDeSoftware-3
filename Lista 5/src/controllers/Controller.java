@@ -19,7 +19,7 @@ public class Controller {
             if (option.equalsIgnoreCase("1")) {
             	String list = listMenuCadastro();
                      if (list.equalsIgnoreCase("1")) {
-                    	 register();
+                    	 //register();
                      } else if (list.equalsIgnoreCase("2")) {
                     	 System.out.println("oi leticia né?");
                      } else if (list.equalsIgnoreCase("3")) {
@@ -98,9 +98,9 @@ public class Controller {
         while (registering) {
             System.out.println("\nCadastro de Animal");
             if (tipo==1) {
-            	Animal animal = new Suino();
+            	Animal animal = new Suinos();
             }
-
+            
             String register = textInput("\nAdicionar cadastro (S/N) ?");
             if (register.equalsIgnoreCase("s")) {
                 System.out.println("Cadastro adicionado!!");

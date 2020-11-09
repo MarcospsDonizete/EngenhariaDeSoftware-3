@@ -35,10 +35,12 @@ public class CartaoVacinas {
 		todasVacinas.add(new Vacinas("Erisipela", false, ""));
 	}
 	
-	public void imprimeVacinas() {
+	public String imprimeVacinas() {
+		String vacinas = "";
 		for(Vacinas vacina:todasVacinas) {
-			System.out.println(vacina.toString());
+			vacinas+=(vacina.toString());
 		}
+		return vacinas;
 	}
 }
 

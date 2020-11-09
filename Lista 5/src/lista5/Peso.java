@@ -14,7 +14,7 @@ public class Peso {
 	}
 	
 	public String toString() {
-        return "Peso em KG: " + peso + "\n" +
-        		"Peso em Aroba: " + peso*29.376; 
+        return "Peso em KG: " + this.peso + "\n" +
+        		"Peso em Aroba: " + this.peso*29.376; 
    }
 }
