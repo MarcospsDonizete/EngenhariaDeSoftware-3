@@ -5,14 +5,20 @@ import java.util.List;
 
 public class RelatorioAnimais {
 	private static List<Animal> todosAnimais = new ArrayList<Animal>();
+	private static List<Vendas> todasVendas = new ArrayList<Vendas>();
 	
 	public RelatorioAnimais() {};
 	
 	public static List<Animal> getLista() {
-		if(todosAnimais==null) {
-			RelatorioAnimais.todosAnimais = new ArrayList<Animal>();
-		}
 		return todosAnimais;
+	}
+	
+	public static List<Vendas> getListaVendas() {
+		return todasVendas;
+	}
+	
+	public void addVenda(Vendas venda) {
+		todasVendas.add(venda);
 	}
 	
 	public void addAnimal(Animal animal) {
@@ -21,6 +27,12 @@ public class RelatorioAnimais {
 
 	public void printList() {
 		for(Animal a :todosAnimais) {
+			System.out.println(a.toString());
+		}
+	}
+	
+	public void printVendas() {
+		for(Vendas a :todasVendas) {
 			System.out.println(a.toString());
 		}
 	}

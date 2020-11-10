@@ -8,7 +8,7 @@ public class Bovinos extends Animal{
 		super();
 	}
 	
-	public Bovinos(String nome, String peso, String check, String nasc, String raca, String id, String sexo, String vacinas, String dataVacs, String string, String string2) {
+	public Bovinos(String nome, String peso, String check, String nasc, String raca, String id, String sexo, String vacinas, String dataVacs) {
 		this.nome = nome;
 		this.peso = new Peso(Double.parseDouble(peso), Integer.parseInt(check));
 		this.dataDeNascimento = nasc;

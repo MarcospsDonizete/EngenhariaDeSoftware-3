@@ -20,14 +20,23 @@ public class Controller {
     	for(String s:temp) {
 			String[] t=s.split(";");
 			if (!t[0].equals("especie")) {
-				if(t[0].equals("bovino")) {
-					lista.addAnimal(new Bovinos(t[1],t[2],t[3],t[4],t[5],t[6],t[7],t[8],t[9],t[10],t[11]));
-				} else if(t[0].equals("suino")) {
-					lista.addAnimal(new Suinos(t[1],t[2],t[3],t[4],t[5],t[6],t[7],t[8],t[9],t[10],t[11]));
+				if(t[10].equals("0")) {
+					if(t[0].equals("bovino")) {
+						lista.addAnimal(new Bovinos(t[1],t[2],t[3],t[4],t[5],t[6],t[7],t[8],t[9]));
+					} else if(t[0].equals("suino")) {
+						lista.addAnimal(new Suinos(t[1],t[2],t[3],t[4],t[5],t[6],t[7],t[8],t[9]));
+					}
+				} else {
+					if(t[0].equals("bovino")) {
+						lista.addVenda(new Vendas(new Bovinos(t[1],t[2],t[3],t[4],t[5],t[6],t[7],t[8],t[9]), Double.parseDouble(t[11])));
+					} else if(t[0].equals("suino")) {
+						lista.addVenda(new Vendas(new Suinos(t[1],t[2],t[3],t[4],t[5],t[6],t[7],t[8],t[9]), Double.parseDouble(t[11])));
+					}
 				}
 			}
     	}
-		lista.printList();
+		// lista.printList();
+		lista.printVendas();
         scan = new Scanner(System.in);
         execute = true;
         System.out.println("\nRegistro de animais");
