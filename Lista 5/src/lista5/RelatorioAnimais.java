@@ -37,13 +37,13 @@ public class RelatorioAnimais {
 		}
 	}
 	
-	public void pesoRebanho(String tipo) {
+	public void pesoRebanho() {
 		double pesototalkg=0;
 
 		for(Animal animal : todosAnimais) {
 			pesototalkg+=animal.peso.peso;
 		}
-		System.out.println("Peso em Quilos: " + pesototalkg + "\n" + "Peso em Arroba: " + pesototalkg*29.376);
+		System.out.println("Peso em Quilos: " + pesototalkg + "\n" + "Peso em Arroba: " + pesototalkg/29.376);
 	}
 	
 	public void populacao() {
@@ -51,7 +51,7 @@ public class RelatorioAnimais {
 		double femea=0;
 		double aux;
 		for(Animal animal : todosAnimais) {
-			if(animal.genero.equalsIgnoreCase("Macho")){
+			if(animal.genero.equalsIgnoreCase("M")){
 				macho++;
 			}else {
 				femea++;
@@ -66,6 +66,7 @@ public class RelatorioAnimais {
 	public void vacinacao() {
 		List<Animal> vacinados = new ArrayList<Animal>();
 		List<Animal> Nvacinados = new ArrayList<Animal>();
+		
 		boolean flag=true;
 		for(Animal animal : todosAnimais) {
 			for(Vacinas vacina: animal.cartao.todasVacinas) {
@@ -74,26 +75,22 @@ public class RelatorioAnimais {
 					flag=false;
 					break;
 				}
-				if (flag==true) {
-					vacinados.add(animal);
-				}
+			}
+			if (flag==true) {
+				vacinados.add(animal);
 			}
 		}
 		System.out.println("--------Vacinados--------");
 		for(Animal animal:vacinados) {
-			System.out.println(animal.id);
+			System.out.println(animal.nome+" - "+"Id: "+animal.id);
 		}
 		System.out.println("--------Não Vacinados--------");
 		for(Animal animal:Nvacinados) {
-			System.out.println(animal.id);
-		}			
-	}
-	
-	public void venda() {
+			System.out.println(animal.nome+" - "+"Id: "+animal.id);
+		}
 		
-	}
-	
-	public void precoDoRebanho() {
+		double aux2 = (Double.valueOf(vacinados.size()) + Double.valueOf(Nvacinados.size()))/100.0;
+		System.out.println("O rebanho tem: " + Math.round(Nvacinados.size()/aux2) + "% de não vacinados");
 		
 	}
 	

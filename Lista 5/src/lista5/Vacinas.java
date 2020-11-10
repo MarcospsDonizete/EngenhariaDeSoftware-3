@@ -12,6 +12,6 @@ public class Vacinas {
 	}
 	
 	 public String toString() {
-	        return "Nome: " + this.nome + "|| Aplicado: " + this.aplicado + "|| Agendamento/data da aplicação: " + this.agendamento + "\n"; 
+	        return "Nome: " + this.nome + " || Aplicado: " + this.aplicado + " || Agendamento/data da aplicação: " + this.agendamento + "\n"; 
 	   }
 }

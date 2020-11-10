@@ -13,6 +13,14 @@ public class Peso {
 		}
 	}
 	
+	public double kilo() {
+        return this.peso;
+    }
+
+    public double arroba() {
+        return this.peso/29.376;
+    }
+	
 	public String toString() {
         return "Peso em KG: " + this.peso + "\n" +
         		"Peso em Aroba: " + this.peso/29.376; 

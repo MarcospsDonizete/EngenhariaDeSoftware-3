@@ -1,4 +1,21 @@
 especie;nome;peso;tipo;nascData;raca;id;sexo;vacinas;dataVacs;statusVenda;precoVenda
 bovino;jairo;20;1;10/02/1981;angus;11151618;F;[1,0,1,0,0,0,1,0];[X,X,X,X,20/11/2020,X,X,X];1;250;
-suino;Yog'Sothot;11;2;20/05/0;eldritch;0;M;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];1;300;
-bovino;cleiton;700;1;31/02/1930;sadia;1516156;M;[1,1,1,1,1,1,1,0];[X,X,X,X,X,X,X,03/12/2022];1;5000;
+suino;Yog'Sothot;666;2;06/06/0666;eldritch;0;M;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];0;X;
+bovino;cleiton;70;1;31/02/1930;sadia;1516156;M;[1,1,1,1,1,1,1,0];[X,X,X,X,X,X,X,03/12/2022];1;5000;
+bovino;trevosa;5;2;01/12/1956;sadia;2521246;F;[1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X];0;X;
+bovino;clarice;25;1;12/05/1999;sadia;1456456;F;[0,1,1,0,1,1,0,1];[X,X,X,X,X,X,X,X];1;230;
+bovino;juliana;10;1;17/07/1955;miniboi;111111;M;[1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X];1;499;
+bovino;ricardo;50;1;08/08/1997;angus;11424;F;[1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X];0;X;
+bovino;anselmo;13;1;30/10/1932;miniboi;4234333;M;[1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X];0;X;
+bovino;ana clara;31;1;22/04/1966;sadia;355333;F;[0,1,1,1,0,1,1,1];[04/05/2037,X,X,X,X,X,X,X];0;X;
+bovino;joaquim;4;2;25/01/1967;sadia;232312;M;[1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X];1;5020;
+suino;oliver;10;2;10/03/1667;miniporco;1512;M;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];0;X;
+suino;sabrina;3;2;28/11/2011;marroquino;24356345;F;[1,1,1,1,0,0,0,1,1];[X,X,X,X,X,01/01/2021,X,X,X];0;X;
+suino;jacinto;7;2;16/05/2003;miniporco;1235123;M;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];1;450;
+suino;pinto;52;1;11/09/2001;marroquino;123421;M;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];0;X;
+suino;não sei;1;2;00/00/0000;???;1222677;F;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];0;X;
+suino;kevin;133;1;20/05/2000;duroc;73467584;M;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];0;X;
+suino;lija;4;2;19/04/1999;duroc;7452368;F;[0,0,0,0,0,0,0,0,0];[X,X,X,X,X,X,X,X,X];0;X;
+suino;chibeni;17;1;08/08/1998;miniporco;35673;M;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];0;X;
+suino;alanzoka;4;2;13/05/1990;duroc;970500;M;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];1;590;
+suino;maethe;33;2;17/10/1995;duroc;4894944;F;[1,1,1,1,1,1,1,1,1];[X,X,X,X,X,X,X,X,X];0;X;

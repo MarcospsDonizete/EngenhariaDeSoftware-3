@@ -22,7 +22,7 @@ public class Vendas {
         for(Animal animal:animais) {
         	result+=animal.nome+ " - " +animal.id +"\n";
         }
-        result+="\nPreço: " + preco + "\n"; 
+        result+="Preço: " + preco + "\n"; 
         return result;
     }
 }
