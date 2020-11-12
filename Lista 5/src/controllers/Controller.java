@@ -35,8 +35,6 @@ public class Controller {
 				}
 			}
     	}
-		// relatorios.printList();
-		//relatorios.printVendas();
         scan = new Scanner(System.in);
         execute = true;
         System.out.println("\nBom Dia!!");
@@ -79,7 +77,9 @@ public class Controller {
             } else if (option.equalsIgnoreCase("3")) {
                 Venda();                
             } else if (option.equalsIgnoreCase("4")) {
-                	execute = false;
+            	controleVacinas();
+            } else if (option.equalsIgnoreCase("5")) {
+            	execute = false;
             } else {
                 System.out.println("Favor digitar um número válido!!");
             }
@@ -91,7 +91,8 @@ public class Controller {
         System.out.println("1 - Novo cadastro");
         System.out.println("2 - Relátorios");
         System.out.println("3 - Venda de animal");
-        System.out.println("4 - Sair");
+        System.out.println("4 - Controle de vacinas");
+        System.out.println("5 - Sair");
         return scan.nextLine();
        
     }
@@ -227,6 +228,10 @@ public class Controller {
 		System.out.println("Valor do Rebanho: R$"+total);
 	}
 
+
+	private void controleVacinas() {
+		// TODO Auto-generated method stub
+	}
     
     private String textInput(String label) {
         System.out.println(label);

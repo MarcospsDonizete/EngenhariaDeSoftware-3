@@ -1,6 +1,6 @@
 package lista5;
 
-public abstract class  Animal {
+public class  Animal {
     public String nome;
     public Peso peso;
     public String dataDeNascimento;

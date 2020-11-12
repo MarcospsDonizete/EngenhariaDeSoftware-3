@@ -1,7 +1,5 @@
 package lista5;
 
-import java.util.ArrayList;
-
 public class Bovinos extends Animal{
 
 	public Bovinos() {
