@@ -3,7 +3,7 @@ package br.com.fatec;
 public class Alimento {
 	public String tipo;
 	public String grupo;
-	public Tabela tabela;
+	public Tabela tabela = new Tabela();
 	
 	public Alimento(String tipo, String grupo) {
 		this.tipo = tipo;

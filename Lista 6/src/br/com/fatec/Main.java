@@ -8,10 +8,14 @@ public class Main {
 		
 		GrupoAlimentos grupo = new GrupoAlimentos();
 		
-		grupo.Adiciona(queijo);
+		//grupo.Adiciona(queijo);
 		
 		Calculos calculo = new Calculos();
 		calculo.Imc(67.9, 1.87);
+		
+		queijo.tabela.add("Vitamina B", "700");
+		
+		queijo.tabela.printAll();
 	}
 
 }
