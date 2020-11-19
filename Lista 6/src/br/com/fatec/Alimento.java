@@ -1,11 +1,11 @@
 package br.com.fatec;
 
-public class Alimento {
+public class Alimento extends Comida{
 	public String tipo;
 	public String grupo;
-	public Tabela tabela = new Tabela();
 	
-	public Alimento(String tipo, String grupo) {
+	public Alimento(String nome, String tipo, String grupo) {
+		this.nome = nome;
 		this.tipo = tipo;
 		this.grupo = grupo;
 	}
@@ -17,4 +17,9 @@ public class Alimento {
 	public String toString() {
         return this.tipo + this.grupo + "\n"; 
     }
+
+	@Override
+	public void print() {
+		System.out.println(nome);
+	}
 }

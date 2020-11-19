@@ -1,8 +1,6 @@
 package br.com.fatec;
 
-import java.util.Dictionary;
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.Map;
 
 public class Tabela {
