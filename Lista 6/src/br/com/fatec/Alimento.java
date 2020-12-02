@@ -2,7 +2,6 @@ package br.com.fatec;
 
 public class Alimento extends Comida{
 	public String tipo;
-	public String grupo;
 	
 	public Alimento(String nome, String tipo, String grupo) {
 		this.nome = nome;

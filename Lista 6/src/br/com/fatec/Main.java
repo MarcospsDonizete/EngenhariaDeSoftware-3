@@ -14,7 +14,7 @@ public class Main {
 		Alimento carne = new Alimento("Carne", "proteína", "Grupo 3");
 		Alimento frango = new Alimento("Frango", "proteína", "Grupo 3");
 		
-		Map<Alimento, String> m = new HashMap<Alimento, String>();
+		Map<Comida, String> m = new HashMap<Comida, String>();
 		
 		m.put(frango, "200 gramas");
 		m.put(queijo, "2 fatias");

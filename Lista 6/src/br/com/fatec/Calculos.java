@@ -2,7 +2,7 @@ package br.com.fatec;
 
 public class Calculos {
 	
-	public void Imc(Double peso, Double altura) {
+	public static void Imc(Double peso, Double altura) {
 		double porcent= peso/(Math.pow(altura,2));
 		System.out.println(porcent);
 		
@@ -23,7 +23,7 @@ public class Calculos {
 		}
 	}
 	
-	public void PGC(Double peso, Double altura,String genero,int idade) {
+	public static void PGC(Double peso, Double altura,String genero,int idade) {
 		double IMC = peso/(Math.pow(altura,2));
 		double modgen=0;
 		if(genero=="M") {
