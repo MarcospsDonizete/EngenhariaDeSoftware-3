@@ -74,7 +74,8 @@ public class Controller {
         System.out.println("\nSelecione a opção: ");
         System.out.println("1 - Cadastro");
         System.out.println("2 - Calculos");
-        System.out.println("3 - Sair");
+        System.out.println("3 - Cadastrados");
+        System.out.println("4 - Sair");
         return scan.nextLine();
        
     }
