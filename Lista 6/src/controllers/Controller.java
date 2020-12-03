@@ -255,4 +255,81 @@ public class Controller {
     	else
     		System.out.println("Input Inválido");
     }
+    
+    //Criação na de 12 alimentos
+    public void registroBase() {
+    	Alimento pao =new Alimento("Pão", "Aliemnto", "4");
+    	ga.add(pao);
+    	
+    	Alimento queijo = new Alimento("Queijo", "Derivados", "1");
+    	ga.add(queijo);
+    	
+    	Alimento arroz = new Alimento("Arroz", "Grãos", "4");
+    	ga.add(arroz);
+    	
+    	Alimento tomate = new Alimento("Tomate", "Fruta", "3");
+    	ga.add(tomate);
+    	
+    	Alimento feijao = new Alimento("Feijão", "Grãos", "4");
+    	ga.add(feijao);
+    	
+    	Alimento maionese = new Alimento("Maionese", "Derivados", "1");
+    	ga.add(maionese);
+    	
+    	Alimento leite = new Alimento("Leite", "Derivados", "1");
+    	ga.add(leite);
+    	
+    	Alimento alface = new Alimento("Alface", "Vegetais", "5");
+    	ga.add(alface);
+    	
+    	Alimento carne = new Alimento("Carne", "Carnes", "2");
+    	ga.add(carne);
+    	
+    	Alimento acucar = new Alimento("Açucar", "Açucares", "5");
+    	ga.add(acucar);
+    	
+    	
+    	ga.add(new Alimento("Maçã", "Fruta", "3"));
+    	ga.add(new Alimento("Frango", "Carnes", "2"));    	
+    	ga.add(new Alimento("Café", "Grãos", "4"));
+    	
+    	Map<Comida, String> m = new HashMap<Comida, String>();
+    	m.put(pao, "2");
+    	m.put(alface, "1");
+    	m.put(tomate, "2");
+    	
+    	Map<Comida, String> m1 = new HashMap<Comida, String>();
+    	
+    	m1.put(arroz, "100 kg");
+    	m1.put(feijao, "80 kg");
+    	
+    	Map<Comida, String> m2 = new HashMap<Comida, String>();
+    	
+    	m2.put(carne, "300 kg");
+    	m2.put(tomate, "100 kg");
+    
+    	ga.add(new Receitas("Carne Louca", m2, "Desfia a carne cozinha com tomates picados e colocar no pão", "2 horas"));
+    	ga.add(new Receitas("Sanduiche", m, "Junta tudo a gosto", "15 min"));
+    	ga.add(new Receitas("Arroz e Feijão", m1, "Coloca no prato", "20 min"));
+    	
+    	Combinação c = new Combinação("Arroz doce");
+    	c.add(arroz);
+    	c.add(acucar);
+    	
+    	ga.add(c);
+    	
+    	Combinação c1 = new Combinação("Tomate com Arroz");
+    	c1.add(arroz);
+    	c1.add(tomate);
+    	
+    	ga.add(c1);
+    	
+    	
+    	Combinação c2 = new Combinação("Carne com feijão");
+    	c2.add(carne);
+    	c2.add(feijao);
+    	
+    	ga.add(c2);
+    	
+    }
 }
