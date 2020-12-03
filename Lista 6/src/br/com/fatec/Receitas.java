@@ -17,6 +17,14 @@ public class Receitas extends Comida{
 	
 	@Override
 	public void print() {
-		System.out.println(nome);
+		System.out.println("--------~--------");
+		System.out.println("Nome: " + nome);
+		System.out.println("Ingredientes: ");
+		for(Comida c:ingredientes.keySet()) {
+			System.out.println("  " + ingredientes.get(c)+" de " + c.nome);
+		}
+		System.out.println("Modo de preparo: ");
+		System.out.println(modoPreparo);
+		System.out.println("Tempo:    " + tempoPreparo);
 	}
 }

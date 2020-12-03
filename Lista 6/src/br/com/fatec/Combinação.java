@@ -15,9 +15,11 @@ public class Combinação extends Comida{
 	}
 	
 	public void print() {
-		System.out.println(nome);
+		System.out.println("--------~--------");
+		System.out.println("Nome:  " + nome);
+		System.out.println("Componentes: ");
 		for(Comida c:kombi) {
-			c.print();
+			System.out.println(" "+c.nome);
 		}
 	}
 }

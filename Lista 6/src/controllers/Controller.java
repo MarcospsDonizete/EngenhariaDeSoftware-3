@@ -27,6 +27,7 @@ public class Controller {
 
     public void start() throws IOException {
     	
+    	registroBase();
         scan = new Scanner(System.in);
         execute = true;
         System.out.println("\nBom Dia!!");
